@@ -3,54 +3,116 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Practice Company</title>
-
-        <!-- custom css -->
+        <title>Suguro Tech Solutions</title>
         <link rel="stylesheet" href="/Style/style.css">
 
     </head>
     <body>
+        <!-- Main Navigation Bar -->
         <div class="navbar-main">
             <div class="nav-logo-container">
-                <div class="navbar-logo"> 
-                    <div class="navbar-logo-image">
-                    </div>
-                    <a href="#">Suguro
-                        Tech<br><span>Solutions</span></a>
-                    
+                <div class="navbar-logo">
+                    <div class="navbar-logo-image"></div>
+                    <a href="#">Suguro Tech<br><span>Solutions</span></a>
                 </div>
             </div>
             <div class="nav-content">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contacts</li>
+                    <li><a href="#">家</a></li>
+                    <li><a href="#">について</a></li>
+                    <li><a href="#">連絡先</a></li>
                 </ul>
             </div>
         </div>
-          <div class="banner">
-            <div class="banner-image"> <img src="/Pictures/Port.jpg" alt="Port">
+
+        <!-- This is a slider -->
+        <div class="carousel">
+            <div class="slideshow"> 
+                        <div class="mySlides one"><img src="/Pictures/vessel.jpg"alt="Vessel" style="opacity: 85%;"><div class="banner-text"><p>私たちはウェブサイトを作ります。ご希望をお知らせください。私たちがあなたのためにそれを作ります。シンプル、高速、そして素晴らしい!</p></div></div>
+                                    
+                       <div class="mySlides two"><img src="/Pictures/Port.jpg" alt="Port"></div>
+                       <div class="mySlides three"><img src="/Pictures/solution.jpg" alt="Solution"></div>
+                    </div>
+        <!-- slider button -->
+            <div class="direction prev" onclick="prevSlide(-1)" role="button">&#10094</div>
+            <div class="direction next" onclick="prevSlide(1)" role="button">&#10095</div>
             </div>
-        </div> 
-        <div class="body-container">
-            <div class="body-content">Where does it come from?
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a
-            treatise on the theory of ethics, very popular during the
-            Renaissance. The first line of Lorem Ipsum,
-            "Lorem ipsum dolor sit amet..", comes from a line in section
-            1.10.32.
+        
+
+        <!-- </div> -->
+        <div class="headline-container">
+            <div class="headline-text">
+                <div class="headline-text-upper"><h5>私たちのサービス</h5></div>
+                <div
+                    class="headline-text-bottom">幅広いソフトウェア、デザイン、情報技術サービスを提供</div><hr>
             </div>
         </div>
-        <footer class="footer-container" style="background-color: aqua;">this is
-            footer</footer> 
+
+        <!-- Upper Body Contents First Page -->
+        <div class="body-container">
+            <div class="body-content">
+                <div class="firstcol">
+                    <div class="h5-container">
+                        <h5 style="margin:0 0 10px 0;">ウェブアプリケーション</h5>
+                    </div>
+                    <div class="text-content">
+                        <p>チームの専門知識を活用すれば、企業はどこにいても顧客とサービスを簡単に共有できます。これは、自分の範囲を広げ、より多くの人々とつながるための簡単な方法です。</p></div>
+                </div>
+                <div class="secondcol">
+                    <div class="h5-container">
+                        <h5 style="margin:0 0 10px 0;">ビジネスソフトウェア</h5>
+                    </div>
+                    <div class="text-content">
+                        <p>標準的なビジネスプロセスまたは顧客固有のコンピュータソフトウェア。私たちは、ビジネス
+                            プロセスを改善、サポート、自動化する新しい方法をお客様に提供することを目指しています</p></div>
+                </div>
+                <div class="thirdcol">
+                    <div class="h5-container">
+                        <h5 style="margin:0 0 10px 0;">情報技術コンサルティング</h5>
+                    </div>
+                    <div class="text-content">
+                        <p>私たちの目的は、お客様の問題とニーズを明確にし、ソリューションを提供および評価し、お客様が選択したソリューションの実装ロードマップを提案することです</p></div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Lower Body Contents Second Page -->
+        <div class="body-container-2">
+            
+            <div class="support">
+                <div class="support-container">
+                   
+                    <!-- content and button -->
+                    <div class="talk-to-us"><div class="head-container">
+                        <h1>私たちに話してください</h1>
+                            </div>  
+                                <span>お客様の懸念事項であっても、私たちと一緒に未来を築きたいというご希望であっても、ぜひご意見をお待ちしております</span>
+                        <div class="support-btn">
+                            <div class="btn">
+                                    <a href="#">
+                                <button id="talk">お問い合わせ</button></a>    
+                    </div></div></div>   
+
+                    
+                    <!-- content and button -->
+                    <div class="join-us"><div class="head-container">
+                        <h1>参加しませんか</h1>
+                            </div>
+                                <span>私たちの未来は、ビジョンを持った情熱的な人々によって動かされています。私たちのチームの一員として、顧客がふさわしい未来を創造してください</span>
+                        <div class="support-btn">
+                            <div class="btn">
+                                    <a href="#">
+                                <button id="join">参加しませんか</button></a>    
+                    </div></div></div> 
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <!-- Footer -->
+        <!-- <footer class="footer-container" style="background-color: aqua; position: sticky; bottom: 0;">this is
+            footer</footer> -->
+
     </body>
 
 </html>
