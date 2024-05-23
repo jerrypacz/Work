@@ -20,7 +20,7 @@ function prevSlide(slideshow) {
 //   }
   
 
-function showSlides(n) {
+function showSlides(slideshow) {
     let i;
     if (document.querySelector(".carousel")) {
 
@@ -28,11 +28,11 @@ function showSlides(n) {
         if (slideshowPage.classList.contains("carousel")) {
             let slides = slideshowPage.querySelectorAll(".mySlides");
 
-            if (n > slides.length) {
+            if (slideshow > slides.length) {
             slideIndex = 1;
             };
 
-            if (n < 1) {
+            if (slideshow < 1) {
             slideIndex = slides.length
             };
 
@@ -43,7 +43,7 @@ function showSlides(n) {
         }
     }
 }
-
+// 5 seconds interval to slide automatically
 setInterval(function() {
     prevSlide(1)
   }, 5000);
