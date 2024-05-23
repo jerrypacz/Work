@@ -19,9 +19,10 @@
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.2);
 }
 
+
+/* LOGO */
 .nav-logo-container{
     width: auto;
-    border: 1px solid black;
     display: flex;
     margin-left: 10px;
 }
@@ -29,7 +30,14 @@
 .navbar-logo-image{
     height: 60px;
     width: 60px;
-    border: 1px solid black;
+    padding: 4px;
+    
+    /* border: 1px solid black; */
+}
+
+.Solution{
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-logo-container .navbar-logo{
@@ -37,8 +45,18 @@
     font-size: 26px;
     display: flex;
     align-items: center;
+    
 }
 
+.navbar-logo-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-logo-image:hover {
+    color: #b6b2b2;
+    cursor: pointer;
+}
 
 .navbar-logo a {
     color: #000;
@@ -53,9 +71,10 @@
 
 .navbar-logo span {
     font-size: 35px;
-    /* color: #000; */
+    color: #000;
 }
 
+/* HOME LISTING */
 .nav-content{
     margin-right: 20px;
 }
@@ -395,6 +414,68 @@
     flex-direction: column;
     padding-bottom: 20px;
     color: #5252f0;
+}
+
+    /* this is for the footer design */
+
+.bottom-item-container {
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px #f4f4f4;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-item-container {
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-item-container ul{
+    list-style: none;
+    display: flex;
+    height: auto;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-item-container ul li {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+.right-item-container ul li a img{
+    height: 35px;
+    width: 35px;
+}
+
+
+.left-item-container{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left-item-container .credits{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.credits a{
+    text-decoration: none;
+}
+
+.credits a:hover{
+    text-decoration: underline;
 }
 
 
