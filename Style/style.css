@@ -455,6 +455,10 @@
     width: 35px;
 }
 
+.right-item-container ul li a:hover{
+    cursor: pointer;
+}
+
 
 .left-item-container{
     display: flex;
@@ -479,3 +483,47 @@
 }
 
 
+/* this is for the call us and services container https://www.youtube.com/watch?v=eKo1NV1qxbc */
+
+.detailed-container{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.call-us-container{
+    display: flex;
+}
+
+.services-container{
+    display: flex;
+    width: 500px;
+
+}
+
+.services-container ul{ 
+    list-style: none;
+    height: 15px;
+    width: 15px;
+}
+
+.services-container ul li{ 
+    position: relative;
+    display: inline-block;
+}
+
+.services-container ul li a{ 
+    text-align: left;
+    display: block;
+}
+
+.services-container a {
+    font-size: 16px;
+    text-align: left;
+    display: block;
+}
+
+.dropdown svg{
+    height: 100%;
+    width: 100%;
+}

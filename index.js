@@ -48,3 +48,23 @@ setInterval(function() {
     prevSlide(1)
   }, 5000);
 
+
+//   var names = [{ name: "jer", lname: "boy"},
+//               { name: "ric", lname: "cho"},
+//               { name: "jer", lname: "xan"}
+//             ]
+            
+
+//             for(let i=0; i<names.length; i++){
+//                 if(names[i].name=="jer" && names[i].lname == "xan"){
+//                     console.log(i)
+//                 console.log(names[i].name)
+//             }
+//         }
+
+
+
+            
+  
+            
+            
