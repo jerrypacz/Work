@@ -417,6 +417,9 @@
 }
 
     /* this is for the footer design */
+footer{
+    height: auto;
+}
 
 .bottom-item-container {
     height: 100px;
@@ -487,8 +490,53 @@
 
 .detailed-container{
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.detailed-container-subcont{
+    display: flex;
+    height: 300px;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.menu1,.menu2{
+    width: 100%;
+}
+
+.menu1 li,.menu2 li{
+    list-style: none;
+    text-align: left;
+}
+
+li,label{
+    cursor: pointer;
+}
+
+.dropdown1,.dropdown2{
+    position: relative;
+}
+
+.dropdown-menu1,.dropdown-menu2{
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+}
+
+#drop1:checked + .dropdown-menu1{
+    height: auto;
+}
+
+#drop2:checked + .dropdown-menu2{
+    height: auto;
+}
+
+
+/* .detailed-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .call-us-container{
@@ -496,34 +544,101 @@
 }
 
 .services-container{
-    display: flex;
-    width: 500px;
+  
 
+    
+    width: 100px;
 }
 
-.services-container ul{ 
+.menu li{
     list-style: none;
-    height: 15px;
-    width: 15px;
 }
 
-.services-container ul li{ 
+.dropdown{
+    display: flex;
+    
+}
+
+.drop-icon img{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.menu li,label{
+    cursor: pointer;
+}
+
+.menu li:hover{
+    border-bottom: 1px solid red;
+    transition: 0.5s;
+}
+
+.dropdown{
     position: relative;
+}
+
+.dropdown-menu{
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.1s ease-in-out;
+}
+#drop{
+    position: absolute;
+    height: 0;
+    opacity: 0;
+}
+
+#drop:checked + .dropdown-menu{
+    height: auto;
+    
+} */
+
+    /* trial1 */
+
+/* 
+.menu{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+
+
+
+.item a .dropdown{
+    position: absolute;
+} 
+ */
+
+
+
+
+
+
+/* .drop-container label{
+    font-size: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.drop-container label:before{
+    content: " ";
+    position: absolute;
+    border: 1px solid black;
+}
+
+.drop-container  li a{ 
+    /////display: none;
+    border: 1px solid black;
+}
+
+.sub-menu{
+    position: absolute;
+}
+
+input:checked ~ .sub-menu a{
+    border: 1px solid black;
     display: inline-block;
-}
-
-.services-container ul li a{ 
-    text-align: left;
-    display: block;
-}
-
-.services-container a {
-    font-size: 16px;
-    text-align: left;
-    display: block;
-}
-
-.dropdown svg{
-    height: 100%;
-    width: 100%;
-}
+} */
