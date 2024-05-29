@@ -64,7 +64,7 @@
 }
 
 .navbar-logo a:hover {
-    color: #00D3FD;
+    color: #009FFF;
     text-decoration: none;
     cursor: pointer;
 }
@@ -104,7 +104,7 @@
 }
 
 .nav-content ul li a:hover{
-    background-color: #00D3FD;
+    background-color: #009FFF;
     color: white;
     border-radius: 10px;
 }
@@ -197,7 +197,7 @@
     background-color: #fff;
     align-items: center;
     justify-content: center;
-    padding: 1% 0 10px 0 ;
+    padding: 4% 0 10px 0 ;
 }
 
 .headline-container .headline-text{
@@ -234,7 +234,7 @@
     display: flex;
     height: auto;
     width: 100%;
-    padding: 3% 0 3% 0;
+    padding: 4% 0 4% 0;
     align-items: center;
     justify-content: center;
     
@@ -377,7 +377,7 @@
     justify-content: center;
     text-align: justify;
     width: auto;
-    padding: 10px 20px 10px 20px;
+    padding: 13px 20px 13px 20px;
 }
 
 
@@ -387,8 +387,9 @@
     display: flex;
     align-items: top;
     justify-content: center;
-    font-size: 32px;
-    padding: 20px 0 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 17px 0 17px 0;
 }
 /* Lower body page */
 
@@ -433,12 +434,12 @@
 
 .talk-to-us span{
     padding-bottom: 20px;
-    color: #5252f0;
+    color: #000;
 }
 
 .join-us span{
     padding-bottom: 20px;
-    color: #5252f0;
+    color: #000;
 }
 
 .support-btn .btn{
@@ -462,8 +463,8 @@
 }
 
 .btn #talk:hover{
-    background-color: #00D3FD;
-    color: white;
+    background-color: #009FFF;
+    color: #fff;
 }
 
 .btn #join{
@@ -480,8 +481,8 @@
 }
 
 .btn #join:hover{
-    background-color: #00D3FD;
-    color: white;  
+    background-color: #009FFF;
+    color: #fff;  
 }
 
 .body-container-2 .join-us{
@@ -501,8 +502,19 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
-    color: #5252f0;
+    color: #000;
 }
+
+.wrapper-cartoon1 img{
+    height: 400px;
+    width: 400px;
+}
+
+.wrapper-cartoon2 img{
+    height: 400px;
+    width: 400px;
+}
+
 
     /* this is for the footer design */
 footer{
@@ -530,26 +542,34 @@ footer{
     list-style: none;
     display: flex;
     height: auto;
-    width: 25%;
+    width: auto;
     justify-content: space-between;
     align-items: center;
 }
 
-.right-item-container ul li {
+.right-item-container li{
     display: flex;
     text-decoration: none;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-.right-item-container ul li a img{
-    height: 35px;
-    width: 35px;
-}
-
-.right-item-container ul li a:hover{
+.right-item-container li svg{
+    margin: 0 7px 0 7px;
     cursor: pointer;
+    /* color: #000; */
 }
 
+.right-item-container .facebook-icon:hover{
+    fill: #1877F2;
+}
+
+.right-item-container .line-icon:hover{
+    fill: #00b900;
+}
+
+.right-item-container .linkedin-icon:hover{
+    fill: #0762C8;
+}
 
 .left-item-container{
     display: flex;
@@ -581,12 +601,13 @@ footer{
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding-top: 20px;
+    height: auto;
+    padding: 20px 0;
 }
 .detailed-container-subcont{
     display: flex;
-    height: 200px;
-    width: 600px;
+    height: auto;
+    width: 900px;
     justify-content: space-between;
 }
 
@@ -597,23 +618,27 @@ footer{
 .menu1 li,.menu2 li{
     list-style: none;
     text-align: left;
+    
 }
 
 .detailed-container li,label{
-    line-height: 1.8em;
+    line-height: 1.7em;
     letter-spacing: 0.5px;
-    font-size: 17px;
+    font-size: 15px;
     text-align: justify;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
+
+
 
 .detailed-container a{
     text-align: justify;
     color: #000;
+    /* font-weight: bold; */
 }
 
 .detailed-container a:hover{
-    color: #5252f0;
+    color: #969696;
 }
 
 .detailed-container label{
@@ -622,11 +647,11 @@ footer{
 }
 
 label:hover{
-    color: #5252f0;
+    color: #969696;
 }
 
 label img:hover{
-    color: #5252f0;
+    /* color: #969696; */
     transition: 0.3s;
 }
 
@@ -664,11 +689,11 @@ li .dropdown2,.dropdown2{
 .dropdown-menu1 a:after{
     content: " ";
     position: absolute;
-    background-color: #aaaaf3;
+    background-color: #009FFF;
     height: 3px;
     width: 0;
     left: 0;
-    bottom: -7px;   
+    bottom: -5px;   
     transition: 0.3s;
 }
 
@@ -679,11 +704,11 @@ li .dropdown2,.dropdown2{
 .dropdown-menu2 a:after{
     content: " ";
     position: absolute;
-    background-color: #aaaaf3;
+    background-color: #009FFF;
     height: 3px;
     width: 0;
     left: 0;
-    bottom: -7px;    
+    bottom: -5px;    
     transition: 0.3s;
 }
 
