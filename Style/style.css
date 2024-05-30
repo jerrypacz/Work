@@ -1,11 +1,18 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
+
+
 
 @font-face {
     font-family: roboto;
     src: url(/font/Roboto-Light.ttf);
+}
+
+body{
+    font-family: roboto;
 }
 
 /*---NAVIGATION BAR---*/
@@ -744,3 +751,31 @@ li .dropdown2,.dropdown2{
     justify-content: center;
 }
  
+/* this is for parallax btn */
+
+.wrapper-btn-to-top{
+    box-sizing: border-box;
+    /* display: block; */
+    /* width: 25%; */
+    width: 15%;
+}
+
+.wrap-btn-top{
+    display: inline-block;
+    
+    justify-content: center;
+    align-items: center;
+    /* background-color : #909090; */
+    stroke: #000;
+    border: #000;
+    border-style: solid;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+}
+
+.wrap-btn-top svg{
+    height: 40px;
+    width: 40px;
+    
+}
