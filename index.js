@@ -31,6 +31,9 @@ function showSlides(slideshow) {
         }
     }
 }
+
+
+
 // 5 seconds interval to slide automatically
 setInterval(function() {
     prevSlide(1)
