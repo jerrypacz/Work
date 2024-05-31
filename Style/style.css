@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 
@@ -84,30 +85,36 @@ body{
 /* HOME LISTING */
 .nav-content{
     margin-right: 20px;
+    width: auto;
 }
 
 .nav-content ul{
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 25px;
+    font-size: 15px;
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 440px;
     
 }
 
 .nav-content ul li{
     display: flex;
     margin: 5px 20px;
-     
-    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-content ul li a{
+    display: block;
     text-decoration: none;
     padding: 8px; 
     color: #000;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
 }
 
 .nav-content ul li a:hover{
@@ -754,28 +761,57 @@ li .dropdown2,.dropdown2{
 /* this is for parallax btn */
 
 .wrapper-btn-to-top{
-    box-sizing: border-box;
-    /* display: block; */
-    /* width: 25%; */
     width: 15%;
+    position: relative;
+    justify-content: center;
+    align-content: center;
 }
 
 .wrap-btn-top{
-    display: inline-block;
-    
+    position: relative;
+    align-content: center;
     justify-content: center;
-    align-items: center;
-    /* background-color : #909090; */
     stroke: #000;
-    border: #000;
-    border-style: solid;
-    border-radius: 100px;
+    border-style: solid 1px #009FFF;
     height: 40px;
     width: 40px;
 }
 
+.btn-btn-to-top{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-btn-to-top a{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 100px;
+}
+
 .wrap-btn-top svg{
-    height: 40px;
-    width: 40px;
-    
+    height: fit-content;
+    width: fit-content;
+    color: #000;
+    border-radius: 100px;
+    border: 2px solid #000;
+}
+
+.wrap-btn-top a:hover{
+    background-color: #009FFF;
+    cursor: pointer;
+}
+
+.wrap-btn-top svg:hover{
+    color: #FFF; 
+    cursor: pointer;
+    border: 2px solid #009FFF;
 }
