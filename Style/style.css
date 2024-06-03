@@ -39,8 +39,7 @@ body{
     height: 60px;
     width: 60px;
     padding: 4px;
-    
-    /* border: 1px solid black; */
+    border: 1px solid #000; 
 }
 
 .Solution{
@@ -96,7 +95,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     width: 440px;
-    
 }
 
 .nav-content ul li{
@@ -251,7 +249,6 @@ body{
     padding: 4% 0 4% 0;
     align-items: center;
     justify-content: center;
-    
 }
 
 .body-container .body-content{
@@ -345,29 +342,23 @@ body{
 
 .container-wrapper1{
     grid-area: FIRST;
-
 }
 .container-wrapper2{
     grid-area: SECOND;
-
 }
 .container-wrapper3{
     grid-area: THIRD;
-
 }
     
 .container-wrapper4{
     grid-area: FOURTH;
-
 }
 .container-wrapper5{
     grid-area: FIFTH;
-
 }
     
 .container-wrapper6{
     grid-area: SIXTH;
-
 }
 
 /* FLEX INSIDE WRAPPER */
@@ -529,7 +520,6 @@ body{
     width: 400px;
 }
 
-
     /* this is for the footer design */
 footer{
     height: auto;
@@ -570,7 +560,6 @@ footer{
 .right-item-container li svg{
     margin: 0 7px 0 7px;
     cursor: pointer;
-    /* color: #000; */
 }
 
 .right-item-container .facebook-icon:hover{
@@ -608,7 +597,7 @@ footer{
 }
 
 
-/* this is for the call us and services container https://www.youtube.com/watch?v=eKo1NV1qxbc */
+/* this is for the call us and services container */
 
 .detailed-container{
     display: flex;
@@ -640,7 +629,6 @@ footer{
     letter-spacing: 0.5px;
     font-size: 15px;
     text-align: justify;
-    /* font-weight: bold; */
 }
 
 
@@ -648,7 +636,6 @@ footer{
 .detailed-container a{
     text-align: justify;
     color: #000;
-    /* font-weight: bold; */
 }
 
 .detailed-container a:hover{
@@ -665,7 +652,6 @@ label:hover{
 }
 
 label img:hover{
-    /* color: #969696; */
     transition: 0.3s;
 }
 
@@ -758,13 +744,15 @@ li .dropdown2,.dropdown2{
     justify-content: center;
 }
  
-/* this is for parallax btn */
 
+/* this is for parallax btn */
 .wrapper-btn-to-top{
-    width: 15%;
-    position: relative;
+    position: fixed;
+    bottom: 32px;
+    right: 35px;
     justify-content: center;
     align-content: center;
+    display: none;
 }
 
 .wrap-btn-top{

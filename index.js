@@ -1,4 +1,3 @@
-
 // Image Slider
 const slideshow = document.querySelectorAll(".mySlides");
 let slideIndex = 1;
@@ -32,8 +31,6 @@ function showSlides(slideshow) {
     }
 }
 
-
-
 // 5 seconds interval to slide automatically
 setInterval(function() {
     prevSlide(1)
@@ -41,6 +38,25 @@ setInterval(function() {
 
 
 
+// this if for the go to top scroll parallax
+const wrapperBtnToTop = document.querySelector ('.wrapper-btn-to-top');
+
+window.addEventListener('scroll', checkforheight)
+
+function checkforheight(){
+    if(window.scrollY > 900){
+        wrapperBtnToTop.style.display = "flex";
+    }else{
+        wrapperBtnToTop.style.display = "none";
+    }
+}
+
+wrapperBtnToTop.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+})
 
             
   
