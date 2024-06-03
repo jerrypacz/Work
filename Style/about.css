@@ -37,8 +37,7 @@ body{
     height: 60px;
     width: 60px;
     padding: 4px;
-    
-    /* border: 1px solid black; */
+    border: 1px solid #000;
 }
 
 .Solution{
@@ -127,7 +126,7 @@ body{
     padding: 40px 0 40px 0;
     display: flex;
     background-color: #e0efff;
-    margin: auto;
+    /* margin: auto; */
     justify-content: center;
 }
 
@@ -151,15 +150,13 @@ body{
 .head-text-cont{
     width: 100%;
     text-align: right;
-    padding-right: 20px;
 }
 
 .head-text-cont p{
     font-size: 24px;
     font-weight: bolder;
     letter-spacing: 1px;
-    margin: 0;
-    padding: 20px 50px 20px 0;
+    padding: 20px 20px 20px 0;
 }
 
 .team-cont{
@@ -177,7 +174,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem 0 3rem 0;
+    padding: 2.5rem 0 2.5rem 0;
     height: auto;
 }
 
@@ -210,31 +207,35 @@ body{
 }
 
 .third-section{
-    /* display: flex; */
     align-items: center;
-    margin: 3rem 0 3rem 0;
+    /* margin: 3rem 0 3rem 0; */
     height: auto;
 }
 
 .normal-cont3{
-    text-align: center;
+    /* text-align: center; */
     font-size: 30px;
     font-weight: 600;
     width: 100%;
     margin: 0 0 18px 0;
-    padding-top: 40px;
+    padding: 40px 0 0 40px;
 }
 
 /* this is to align the text and 3 image */
 
 .layout-for-learnmore{
+    margin: 0;
+    height: 100%;
+    background-color: #efefef;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* padding-bottom: 40px; */
 }
 
 .content-for-layout3{
+    
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -246,13 +247,13 @@ body{
 .content-for-layout3  .normal-layout3{
     display: flex;
     justify-content: space-between;
-    
     height: 100%;
     width: auto;
 }
 
 .normal-layout3 .wrapper-cont{
-    padding: 0 40px 0 40px;
+    
+    padding: 0 40px 40px 40px;
     justify-content: stretch;
     height: auto;
     width: auto;
@@ -304,7 +305,6 @@ footer{
 .right-item-container li svg{
     margin: 0 7px 0 7px;
     cursor: pointer;
-    /* color: #000; */
 }
 
 .right-item-container .facebook-icon:hover{
@@ -342,7 +342,7 @@ footer{
 }
 
 
-/* this is for the call us and services container https://www.youtube.com/watch?v=eKo1NV1qxbc */
+/* this is for the call us and services container */
 
 .detailed-container{
     display: flex;
@@ -374,15 +374,11 @@ footer{
     letter-spacing: 0.5px;
     font-size: 15px;
     text-align: justify;
-    /* font-weight: bold; */
 }
-
-
 
 .detailed-container a{
     text-align: justify;
     color: #000;
-    /* font-weight: bold; */
 }
 
 .detailed-container a:hover{
@@ -399,7 +395,6 @@ label:hover{
 }
 
 label img:hover{
-    /* color: #969696; */
     transition: 0.3s;
 }
 
@@ -495,10 +490,12 @@ li .dropdown2,.dropdown2{
 /* this is for parallax btn */
 
 .wrapper-btn-to-top{
-    width: 15%;
-    position: relative;
+    position: fixed;
+    bottom: 32px;
+    right: 35px;
     justify-content: center;
     align-content: center;
+    display: none;
 }
 
 .wrap-btn-top{
@@ -548,4 +545,10 @@ li .dropdown2,.dropdown2{
     color: #FFF; 
     cursor: pointer;
     border: 2px solid #009FFF;
+}
+
+.emphasize {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 400;
 }
