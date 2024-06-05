@@ -1,3 +1,5 @@
+
+
 // Image Slider
 const slideshow = document.querySelectorAll(".mySlides");
 let slideIndex = 1;
