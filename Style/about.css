@@ -114,7 +114,7 @@ body{
     font-weight: 600;
 }
 
-.nav-content ul li a:hover{
+.nav-content ul li a:hover,.nav-content ul li a.active{
     background-color: #009FFF;
     color: white;
     border-radius: 10px;
